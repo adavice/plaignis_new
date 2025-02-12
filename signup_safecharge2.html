@@ -1,79 +1,52 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://cdn.safecharge.com/safecharge_resources/v1/websdk/safecharge.js"></script>
     <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0]
-                    , j = d.createElement(s)
-                    , dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            }
-        )(window, document, 'script', 'dataLayer', 'GTM-WVZPCLL');
-    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WVZPCLL');</script>
     <!-- End Google Tag Manager -->
+
     <meta name="keywords" content="games, car games, html5 games, new games, fun games, cool games, play games, best games,
        Skill games, Classic games,  quiz,  skill,  educational,  shooting,  casino,  bubble-shooter,  dress-up,  adventure,  time-management,  Mind games,  sports,  tower-defense,  racing,  animals,  strategy,  arcade,  platform,   board-and-card,  action, ">
-    <script type="application/x-javascript">
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-    <link rel="icon" type="image/png" href="./favicon.png"/>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link rel="icon" type="image/png" href="./favicon.png" />
     <!-- css -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/style.css?" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/safecharge.css">
 
     <!--// css -->
     <!-- font -->
+
     <!-- //font -->
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script>
-        $(document).ready(function() {
-            var n = 0
-                , e = 0;
-            let o = $("#profile");
-            n || function() {
-                o.on("click", function(n) {
-                    n.preventDefault()
-                }, !1),
-                    o.on("click", function() {
-                        0 == e ? ($("#sub_menu").slideDown(500),
-                            e = 1) : ($("#sub_menu").slideUp(500),
-                            e = 0)
-                    })
-            }()
-        });
-    </script>
-    <link href="css/ecardon_form.css" rel="stylesheet" type="text/css"/>
+    <script src="js/login.js"></script>
 </head>
-<body class="signUp cc_flow wordline">
+<body class="signUp cc_flow">
 <!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/?page=ns&id=GTM-WVZPCLL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVZPCLL"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 <!-- banner -->
 <div class="sub-banner">
     <!-- Navbar -->
     <nav class="navbar navbar-default">
         <div class="superheader"></div>
         <div class="bright_line"></div>
+
         <div class="container">
+
             <div class="navbar-header transparent">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -81,42 +54,32 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="logo">
-                    <img src="./images/logo_2.png" alt="">
-                </a>
+                <a  href="index.html" class="logo"><img src="./images/logo_2.png" alt=""></a>
             </div>
+
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hover-effect">
-                        <a href="/">Home</a>
-                    </li>
-                    <li class="hover-effect">
-                        <a href="/?page=about">About</a>
-                    </li>
-                    <li class="hover-effect">
-                        <a href="/?page=games">Games</a>
-                    </li>
-                    <li class="hover-effect">
-                        <a href="/?page=news">News</a>
-                    </li>
-                    <li class="hover-effect active">
-                        <a href="/?page=contactus">Contact</a>
-                    </li>
-                    <li>
-                        <a id="profile" href="/?page=profile">
-                            <?xml
-                                    version="1.0" encoding="iso-8859-1"?>
-                            <svg version="1.1" fill="var(--bright)" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="0 0 478.024 478.024" style="enable-background:new 0 0 478.024 478.024; " xml:space="preserve">
-                                        <defs>
-                                            <filter id="f1" x="0" y="0" width="200%" height="200%">
-                                                <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0"/>
-                                                <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10"/>
-                                                <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
-                                            </filter>
-                                        </defs>
-                                <g>
-                                            <g>
-                                                <path d="M411.703,73.561c-45.117-47.093-107.542-73.67-172.76-73.55C107.145-0.155,0.166,106.554,0,238.353
+                    <li class="hover-effect"><a href="index.html">Home</a></li>
+                    <li class="hover-effect"><a href="about.html">About</a></li>
+                    <li class="hover-effect"><a href="games.html">Games</a></li>
+                    <li class="hover-effect"><a href="news.html">News</a></li>
+                    <li class="hover-effect active"><a href="contactus.html">Contact</a></li>
+						<li ><a class="hover-effect" id="profile" href="./profile.html"><?xml version="1.0" encoding="iso-8859-1"?>
+							<svg class="desk_only" version="1.1" fill="var(--bright)" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+								 viewBox="0 0 478.024 478.024" style="enable-background:new 0 0 478.024 478.024; " xml:space="preserve">
+                     <defs>
+   <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0" />
+
+	   <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+	   <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+
+								<g>
+	<g>
+
+		<path d="M411.703,73.561c-45.117-47.093-107.542-73.67-172.76-73.55C107.145-0.155,0.166,106.554,0,238.353
 			c-0.082,65.17,26.492,127.538,73.55,172.623c0.137,0.136,0.188,0.341,0.324,0.461c1.382,1.331,2.884,2.458,4.284,3.738
 			c3.84,3.413,7.68,6.946,11.725,10.24c2.167,1.707,4.42,3.413,6.639,4.983c3.823,2.85,7.646,5.7,11.639,8.329
 			c2.714,1.707,5.513,3.413,8.294,5.12c3.686,2.219,7.356,4.454,11.162,6.485c3.226,1.707,6.519,3.174,9.796,4.727
@@ -148,506 +111,278 @@
 			c38.245-41.661,35.475-106.438-6.186-144.683c-41.661-38.245-106.438-35.475-144.683,6.186
 			c-35.954,39.166-35.954,99.332,0,138.497c-46.785,23.251-80.423,66.557-91.375,117.64C6.69,265.153,28.366,137.371,120.549,71.927
 			s219.965-43.768,285.409,48.415c24.601,34.653,37.807,76.104,37.786,118.602C443.744,281.405,430.46,322.802,405.753,357.336z" filter="url(#f1)"/>
-                                            </g>
-                                        </g>
-                                    </svg>
-                        </a>
-                        <ul id="sub_menu">
-                            <li>
-                                <a href="/?page=login">Login</a>
-                            </li>
-                            <li>
-                                <a href="/?page=signup">Sign Up</a>
-                            </li>
-                        </ul>
-                    </li>
+</g></g>
+</svg>
+						<span class="mob_only">Profile</span>
+						</a>
+							<ul id="sub_menu">
+							<li><a href="./login.html">Login</a></li>
+								<li><a href="./signup.html">Sign Up</a></li>
+							</ul>
+						</li>
                 </ul>
             </div>
+
         </div>
+
     </nav>
 </div>
 <!-- banner -->
-<div class="blog">
-    <div class="container">
+
+<div class="container">
+    <div class="cc_overlay">
+        <div class="close_x">+</div>
+        <div id="message_proc"><h3>Payment Processing...</h3>
+            <span> Please do not close the page</span>
+            <img class="loading_gif" src="./images/loading.gif" alt="">
+        </div>
+        <span id="message_error"></span>
+        <div id="message_success">
+            <h3>Registration is complete!</h3>
+
+            <span>Enjoy our services</span>
+        </div>
+    </div>
+    <div class="blog">
         <div class="col-md-7 wthree_blog_left">
+
             <div class="agileits_reply">
-                <h3 class="membership_title">Sign Up and join our VIP Membership now</h3>
-                <span class="wordline_sub">Plaignis is the ultimate creator and distributor of games designed for grown up players, above 18 years of age, worldwide. This also is a subscription service, charged at a discounted rate of 1 EUR for the first 3 days and followed by a monthly charge of 28.95 EUR.</span>
-                <form method="post">
-                    <input type="hidden" name="page" id="page" value="signup_new"/>
-                    <input type="text" id="name" name="name" placeholder="Name" required="">
-                    <input type="text" id="lname" name="lname" placeholder="Last Name" required="">
-                    <input type="text" id="address" name="address" placeholder="Address" required="">
-                    <input type="text" id="code" name="post_code" placeholder="Post Code" required="">
-                    <input type="text" id="city" name="city" placeholder="City" required="">
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number" required="">
-                    <select class="country" name="country">
-                        <option>Country</option>
-                        <option value="AD">Andorra</option>
-                        <option value="AE">United Arab Emirates</option>
-                        <option value="AF">Afghanistan</option>
-                        <option value="AG">Antigua and Barbuda</option>
-                        <option value="AI">Anguilla</option>
-                        <option value="AL">Albania</option>
-                        <option value="AM">Armenia</option>
-                        <option value="AO">Angola</option>
-                        <option value="AP">Non-spec Asia Pas Location</option>
-                        <option value="AR">Argentina</option>
-                        <option value="AS">Samoa (American)</option>
-                        <option value="AT">Austria</option>
-                        <option value="AU">Australia</option>
-                        <option value="AW">Aruba</option>
-                        <option value="AX">Aland Islands</option>
-                        <option value="AZ">Azerbaijan</option>
-                        <option value="BA">Bosnia and Herzegowina</option>
-                        <option value="BB">Barbados</option>
-                        <option value="BD">Bangladesh</option>
-                        <option value="BE">Belgium</option>
-                        <option value="BF">Burkina Faso</option>
-                        <option value="BG">Bulgaria</option>
-                        <option value="BH">Bahrain</option>
-                        <option value="BI">Burundi</option>
-                        <option value="BJ">Benin</option>
-                        <option value="BM">Bermuda</option>
-                        <option value="BN">Brunei Darussalam</option>
-                        <option value="BO">Bolivia</option>
-                        <option value="BQ">Bonaire; Sint Eustatius; Saba</option>
-                        <option value="BR">Brazil</option>
-                        <option value="BS">Bahamas</option>
-                        <option value="BT">Bhutan</option>
-                        <option value="BW">Botswana</option>
-                        <option value="BY">Belarus</option>
-                        <option value="BZ">Belize</option>
-                        <option value="CA">Canada</option>
-                        <option value="CD">Congo</option>
-                        <option value="CF">Central African Republic</option>
-                        <option value="CG">Congo</option>
-                        <option value="CH">Switzerland</option>
-                        <option value="CI">Ivory coast</option>
-                        <option value="CK">Cook Islands</option>
-                        <option value="CL">Chile</option>
-                        <option value="CM">Cameroon</option>
-                        <option value="CN">China</option>
-                        <option value="CO">Colombia</option>
-                        <option value="CR">Costa Rica</option>
-                        <option value="CU">Cuba</option>
-                        <option value="CV">Cape Verde</option>
-                        <option value="CW">Curacao</option>
-                        <option value="CY">Cyprus</option>
-                        <option value="CZ">Czech Republic</option>
-                        <option value="DE">Germany</option>
-                        <option value="DJ">Djibouti</option>
-                        <option value="DK">Denmark</option>
-                        <option value="DM">Dominica</option>
-                        <option value="DO">Dominican Republic</option>
-                        <option value="DZ">Algeria</option>
-                        <option value="EC">Ecuador</option>
-                        <option value="EE">Estonia</option>
-                        <option value="EG">Egypt</option>
-                        <option value="ER">Eritrea</option>
-                        <option value="ES">Spain</option>
-                        <option value="ET">Ethiopia</option>
-                        <option value="EU">European Union</option>
-                        <option value="FI">Finland</option>
-                        <option value="FJ">Fiji</option>
-                        <option value="FK">Falkland Islands (MALVINAS)</option>
-                        <option value="FM">Micronesia</option>
-                        <option value="FO">Faroe Islands</option>
-                        <option value="FR">France</option>
-                        <option value="GA">Gabon</option>
-                        <option value="GB">United Kingdom</option>
-                        <option value="GD">Grenada</option>
-                        <option value="GE">Georgia</option>
-                        <option value="GF">French Guiana</option>
-                        <option value="GG">Guernsey</option>
-                        <option value="GH">Ghana</option>
-                        <option value="GI">Gibraltar</option>
-                        <option value="GL">Greenland</option>
-                        <option value="GM">Gambia</option>
-                        <option value="GN">Guinea</option>
-                        <option value="GP">Guadeloupe</option>
-                        <option value="GQ">Equatorial Guinea</option>
-                        <option value="GR">Greece</option>
-                        <option value="GT">Guatemala</option>
-                        <option value="GU">Guam</option>
-                        <option value="GW">Guinea-bissau</option>
-                        <option value="GY">Guyana</option>
-                        <option value="HK">Hong Kong</option>
-                        <option value="HN">Honduras</option>
-                        <option value="HR">Croatia</option>
-                        <option value="HT">Haiti</option>
-                        <option value="HU">Hungary</option>
-                        <option value="ID">Indonesia</option>
-                        <option value="IE">Ireland</option>
-                        <option value="IL">Israel</option>
-                        <option value="IM">Isle of Man</option>
-                        <option value="IN">India</option>
-                        <option value="IO">British Indian Ocean Territory</option>
-                        <option value="IQ">Iraq</option>
-                        <option value="IR">Iran</option>
-                        <option value="IS">Iceland</option>
-                        <option value="IT">Italy</option>
-                        <option value="JE">Jersey</option>
-                        <option value="JM">Jamaica</option>
-                        <option value="JO">Jordan</option>
-                        <option value="JP">Japan</option>
-                        <option value="KE">Kenya</option>
-                        <option value="KG">Kyrgyzstan</option>
-                        <option value="KH">Cambodia</option>
-                        <option value="KI">Kiribati</option>
-                        <option value="KM">Comoros</option>
-                        <option value="KN">Saint Kitts and Nevis</option>
-                        <option value="KP">Korea Democratic People's Republic of</option>
-                        <option value="KR">Korea Republic of</option>
-                        <option value="KW">Kuwait</option>
-                        <option value="KY">Cayman Islands</option>
-                        <option value="KZ">Kazakhstan</option>
-                        <option value="LA">Lao</option>
-                        <option value="LB">Lebanon</option>
-                        <option value="LC">Saint Lucia</option>
-                        <option value="LI">Liechtenstein</option>
-                        <option value="LK">Sri Lanka</option>
-                        <option value="LR">Liberia</option>
-                        <option value="LS">Lesotho</option>
-                        <option value="LT">Lithuania</option>
-                        <option value="LU">Luxembourg</option>
-                        <option value="LV">Latvia</option>
-                        <option value="LY">Libya</option>
-                        <option value="MA">Morocco</option>
-                        <option value="MC">Monaco</option>
-                        <option value="MD">Moldova</option>
-                        <option value="ME">Montenegro</option>
-                        <option value="MF">Saint Martin</option>
-                        <option value="MG">Madagascar</option>
-                        <option value="MH">Marshall Islands</option>
-                        <option value="MK">Macedonia</option>
-                        <option value="ML">Mali</option>
-                        <option value="MM">Myanmar</option>
-                        <option value="MN">Mongolia</option>
-                        <option value="MO">Macau</option>
-                        <option value="MP">Northern Mariana Islands</option>
-                        <option value="MQ">Martinique</option>
-                        <option value="MR">Mauritania</option>
-                        <option value="MS">Montserrat</option>
-                        <option value="MT">Malta</option>
-                        <option value="MU">Mauritius</option>
-                        <option value="MV">Maldives</option>
-                        <option value="MW">Malawi</option>
-                        <option value="MX">Mexico</option>
-                        <option value="MY">Malaysia</option>
-                        <option value="MZ">Mozambique</option>
-                        <option value="NA">Namibia</option>
-                        <option value="NC">New Caledonia</option>
-                        <option value="NE">Niger</option>
-                        <option value="NF">Norfolk Island</option>
-                        <option value="NG">Nigeria</option>
-                        <option value="NI">Nicaragua</option>
-                        <option value="NL">Netherlands</option>
-                        <option value="NO">Norway</option>
-                        <option value="NP">Nepal</option>
-                        <option value="NR">Nauru</option>
-                        <option value="NU">Niue</option>
-                        <option value="NZ">New Zealand</option>
-                        <option value="OM">Oman</option>
-                        <option value="PA">Panama</option>
-                        <option value="PE">Peru</option>
-                        <option value="PF">French Polynesia</option>
-                        <option value="PG">Papua New Guinea</option>
-                        <option value="PH">Philippines</option>
-                        <option value="PK">Pakistan</option>
-                        <option value="PL">Poland</option>
-                        <option value="PM">St. Pierre and Miquelon</option>
-                        <option value="PR">Puerto Rico</option>
-                        <option value="PS">Palestinian Territory</option>
-                        <option value="PT">Portugal</option>
-                        <option value="PW">Palau</option>
-                        <option value="PY">Paraguay</option>
-                        <option value="QA">Qatar</option>
-                        <option value="RE">Reunion</option>
-                        <option value="RO">Romania</option>
-                        <option value="RS">Serbia</option>
-                        <option value="RU">Russia</option>
-                        <option value="RW">Rwanda</option>
-                        <option value="SA">Saudi Arabia</option>
-                        <option value="SB">Solomon Islands</option>
-                        <option value="SC">Seychelles</option>
-                        <option value="SD">Sudan</option>
-                        <option value="SE">Sweden</option>
-                        <option value="SG">Singapore</option>
-                        <option value="SI">Slovenia</option>
-                        <option value="SK">Slovakia</option>
-                        <option value="SL">Sierra Leone</option>
-                        <option value="SM">San Marino</option>
-                        <option value="SN">Senegal</option>
-                        <option value="SO">Somalia</option>
-                        <option value="SR">Suriname</option>
-                        <option value="SS">South Sudan</option>
-                        <option value="ST">Sao Tome and Principe</option>
-                        <option value="SV">El Salvador</option>
-                        <option value="SX">Sint Maarten</option>
-                        <option value="SY">Syria</option>
-                        <option value="SZ">Swaziland</option>
-                        <option value="TC">Turks and Caicos Islands</option>
-                        <option value="TD">Chad</option>
-                        <option value="TG">Togo</option>
-                        <option value="TH">Thailand</option>
-                        <option value="TJ">Tajikistan</option>
-                        <option value="TK">Tokelau</option>
-                        <option value="TL">Timor-leste</option>
-                        <option value="TM">Turkmenistan</option>
-                        <option value="TN">Tunisia</option>
-                        <option value="TO">Tonga</option>
-                        <option value="TR">Turkey</option>
-                        <option value="TT">Trinidad and Tobago</option>
-                        <option value="TV">Tuvalu</option>
-                        <option value="TW">Taiwan; Republic of China (ROC)</option>
-                        <option value="TZ">Tanzania</option>
-                        <option value="UA" selected>Ukraine</option>
-                        <option value="UG">Uganda</option>
-                        <option value="US">United States</option>
-                        <option value="UY">Uruguay</option>
-                        <option value="UZ">Uzbekistan</option>
-                        <option value="VA">Holy See (VATICAN City State)</option>
-                        <option value="VC">Saint Vincent and The Grenadines</option>
-                        <option value="VE">Venezuela</option>
-                        <option value="VG">Virgin Islands (BRITISH)</option>
-                        <option value="VI">Virgin Islands (U.S.)</option>
-                        <option value="VN">Viet Nam</option>
-                        <option value="VU">Vanuatu</option>
-                        <option value="WF">Wallis and Futuna Islands</option>
-                        <option value="WS">Samoa (Western)</option>
-                        <option value="YE">Yemen</option>
-                        <option value="YT">Mayotte</option>
-                        <option value="ZA">South Africa</option>
-                        <option value="ZM">Zambia</option>
-                        <option value="ZW">Zimbabwe</option>
-                        <option value="ZZ">Reserved</option>
-                    </select>
-                    <input type="email" name="Email" placeholder="Email" required="">
-                    <div class="wrapBox">
-                        <label class="check" for="checkBox1">
-                            <input id="checkBox1" required="required" type="checkbox">
-                            I am over 18 and I accept the <a href="/?page=terms">terms and conditions</a>
-                            of this offer.
-                        </label>
-                        <label class="check" for="checkBox2">
-                            <input id="checkBox2" required="required" type="checkbox">
-                            The membership is a <a href="/?page=sub_terms">subscription service</a>
-                            , which continues automatically if it is not terminated within 3 days. There will be a 1 EUR charge for authorization purposes. This charge will be reverted back to you.
-                        </label>
-                        <label class="check" for="checkBox3">
-                            <input id="checkBox3" type="checkbox" required="required">I agree to a recurring monthly transaction of 28.95 EUR following a 3 day trial
-                        </label>
-                    </div>
-                    <input class="button" type="submit" value="Continue">
-                </form>
-                <div class="payment_large">
-                    <img src="./images/mastercard.png">
-                    <img src="./images/mastercard.svg">
-                    <img src="./images/visa_white.png">
-                    <img src="./images/visa-secure.png">
+                <h3 class="membership_title">
+                    <img src="./images/ssl2.png" alt="">
+                    Secure Credit Card Payment
+                </h3>
+                <span class="secure-hint">This is secure encrypted payment</span>
+
+                <div class="card-icons">
+
+                    <img src="./images/master_small.png" alt="">
+                    <img src="./images/maestro_small.png" alt="">
+                    <img src="./images/electron_small.png" alt="">
                 </div>
+                <div class="error-holder">
+                    <span id="cc_form_error"></span>
+                </div>
+                <form method="post" class="cardForm">
+                    <label for="card-expiry" data-tid="scwsdk.form.card_expiry_label">
+                        Name
+                    </label>
+                    <span><input type="text" id="cardName" name="cardName" placeholder="Name on Card" required=""><span class="glyphicon glyphicon-question-sign"><div class="cardTip tipRight"><img src="./images/cardTip2.jpg" alt=""></div></span></span>
+                    <div class="row">
+                        <div class="field">
+                            <label for="card-number" data-tid="scwsdk.form.card_number_label">
+                                Card number
+                            </label>
+                            <div id="card-number" class="input"></div>
+
+                            <div class="underline"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="field col6">
+                            <label for="card-expiry" data-tid="scwsdk.form.card_expiry_label">
+                                Expiration
+                            </label>
+                            <div id="card-expiry" class="input empty"><span class="glyphicon glyphicon-question-sign"><div class="cardTip tipRight"><img src="./images/cardTip1.jpg" alt=""></div></span></div>
+
+                            <div class="underline "></div>
+                        </div>
+                        <div class="field col6">
+                            <label for="card-cvc" data-tid="scwsdk.form.card_cvc_label">
+                                CVC
+                            </label>
+                            <div id="card-cvc" class="input empty"><span class="glyphicon glyphicon-question-sign"><div class="cardTip tipRight"><img src="./images/cardTip3.jpg" alt=""></div></span></div>
+
+                            <div class="underline "></div>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <span class="form-hint">Authentication charge: <b>TOTAL OF 1 EUR</b> (will be refunded back to you)</span>
+                    <span class="form-hint2">The transaction will appear as plaignis.com on your credit card bill</span>
+                    <input class="button" type="submit" value="Pay">
+                </form>
+            </div>
+
+
+
+
+            <div class="payment_large" >
+                <img src="./images/mastercard-2.png">
+                <img src="./images/visa_white.png">
+                <img src="./images/mastercard-3.png">
             </div>
         </div>
         <div class="col-md-5 wthree_blog_right">
+
             <div class="ltpwragile_flickr_posts">
+
                 <div class="ltpwragile_flickr_post_left payment">
                     <div class="extraCard">
-                        <img class="iphone_promo_img" src="./images/iphone_promo.png" alt="">
-                        <h2>Become a Plaignis VIP member and have a chance to win an iPhone 12!</h2>
+                        <img class="joystick" src="https://cdn.marketjs.net/games/love-bears/localization/en/media/graphics/promo/banners/180x120.jpg" alt="">
+                        <h2>VIP Membership</h2>
                         <h3>28.95€ / month</h3>
-                        <ul class="benefit iphone">
+                        <ul class="benefit">
                             <li>Unlimited Access</li>
                             <li>Try 3 days, free of charge</li>
-                            <li>24/7 Support</li>
+                            <li>Recurring conditions, 28.95 EUR monthly</li>
                         </ul>
                     </div>
+
                 </div>
                 <div class="ltpwragile_flickr_post_left desk_only">
-                    <img src="images/c4.jpg" alt=" " class="img-responsive">
+                    <img src="https://cdn.marketjs.net/games/catapultz-io/localization/en/media/graphics/promo/banners/180x120.jpg" alt=" " class="img-responsive">
                 </div>
                 <div class="ltpwragile_flickr_post_left desk_only">
-                    <img src="images/c2.jpg" alt=" " class="img-responsive">
+                    <img src="https://cdn.marketjs.net/games/pilot-training/localization/en/media/graphics/promo/banners/180x120.jpg" alt=" " class="img-responsive">
                 </div>
-                <div class="clearfix"></div>
+                <!--<div class="ltpwragile_flickr_post_left">
+                    <a href="game_info.html?id=5053848449187840"><img src="https://cdn.marketjs.net/games/dart-game/localization/en/media/graphics/promo/banners/180x120.jpg" alt=" " class="img-responsive"></a>
+                </div>
+                <div class="ltpwragile_flickr_post_left">
+                    <a href="game_info.html?id=5553244093808640"><img src="https://cdn.marketjs.net/games/monster-mahjong/localization/en/media/graphics/promo/banners/180x120.jpg" alt=" " class="img-responsive"></a>
+                </div>-->
+
+                <div class="clearfix"> </div>
             </div>
         </div>
-        <div class="clearfix"></div>
+        <div class="clearfix"> </div>
     </div>
 </div>
-<div class="thx" style="display: none;">
-    <div class="contact-agileinfo">
-        <div class="col-md-6 contact-right-ltpwr framed">
-            <h3>Processing...</h3>
-            <img class="loading_gif" src="./images/loading.gif" alt="">
-            <h4 style="font-family: sans-serif">Please do not close the page</h4>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<script>
-    function callAjax(form) {
-        $.ajaxSetup({
-            'cache': true
-        });
-        $.ajax({
-            method: 'POST',
-            url: 'https://plaignis.com/',
-            data: form.serialize(),
-            headers: {
-                'X-Requested-With': 'AJAX'
-            },
-            cache: true,
-            /*encode      :  true,*/
-            success: function(data) {
-                $('.blog').replaceWith(data);
-                $('.thx').hide();
-                $('form:first').get(0) && $('form:first').get(0).scrollIntoView();
-                $('form:first').submit(submitHandler);
-                try {
-                    var match = /<script[^>]*?src="(.*?)"/i.exec(data);
-                    if (match && match[1]) {
-                        var x = document.createElement('script');
-                        x.setAttribute("src", match[1]);
-                        document.body.appendChild(match[1]);
-                        console.log(match[1]);
-                    }
-                    match = /<script[^>]*>(<\!\-\-)?([^<]+)<\/script/i.exec(data);
-                    if (match && match[2]) {
-                        var code = match[2].replace(/^\s+|\s+$/g, "");
-                        if (code) {
-                            console.log(code);
-                            eval(code);
-                        }
-                    }
-                } catch (err) {}
-            },
-            error: function(XMLHttpRequest, textStatus, errorThrown) {
-                alert("Something is wrong.");
-                $('.blog').show();
-                $('.thx').hide();
-                //$('form:first').get(0) && $('form:first').get(0).scrollIntoView();
-                $('form:first').submit(submitHandler);
-            }
-        });
-    }
-    var submitHandler = function(event) {
-        event.preventDefault();
-        var form = $(this);
-        $('.blog').hide();
-        $('.thx').show();
-        $('.thx').get(0) && $('.thx').get(0).scrollIntoView();
-        window.scrollBy(0, -10);
-
-        callAjax(form);
-        return false;
-    };
-    $('form:first').submit(submitHandler);
-</script>
 <!-- footer -->
 <div class="footer">
+
     <div class="container">
         <div class="col-md-3 footer-left-ltpwr">
             <h4>Contact</h4>
             <ul>
-                <li>
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                </li>
-                <li>
-                    <a href="/cdn-cgi/l/email-protection#ccbfb9bcbca3beb88ca0a3a3b8bca3bba9bee2afa3a1">
-                        <h6>
-                            <span class="__cf_email__" data-cfemail="25565055554a575165494a4a51554a5240570b464a48">[email &#160;protected]</span>
-                        </h6>
-                    </a>
-                </li>
+                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></li>
+                <li><a href="/cdn-cgi/l/email-protection#315449505c415d54715c50585d1f525e5c"><h6><span class="__cf_email__" data-cfemail="b6c5c3c6c6d9c4c2f6dad9d9c2c6d9c1d3c498d5d9db">[email&#160;protected]</span></h6></a></li>
             </ul>
             <ul>
-                <li>
-                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                </li>
+                <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
                 <li><a><h6>Support: +357 95128763</h6></a></li>
             </ul>
             <ul>
-                <li>
-                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                </li>
-                <li>
-                    <h6>AryaMG LTD, Evripidou 5, Paralimni 5290, Famagusta, Cyprus</h6>
-                </li>
+                <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></li>
+                <li><h6>AryaMG LTD, Evripidou 5, Paralimni 5290, Famagusta, Cyprus</h6></li>
             </ul>
-            <!--<ul>                <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></li>                <li><h6>(0033)6544 5453 644</h6></li>            </ul>-->
+            <!--<ul>
+                <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></li>
+                <li><h6>(0033)6544 5453 644</h6></li>
+            </ul>-->
         </div>
         <div class="col-md-5 footer-middle-ltpwr">
             <h4>Latest Games</h4>
             <div class="col-md-3 img-ltpwr-agile">
-                <a href="/?page=game_info&id=5276099618537472">
-                    <img src="https://cdn.marketjs.net/games/pop-the-frog/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=5619817429073920"><img src="https://cdn.marketjs.net/games/unblock-it/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile">
-                <a href="/?page=game_info&id=5919279024177152">
-                    <img src="https://cdn.marketjs.net/games/positive-reinforcement/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=4563783218364416"><img src="https://cdn.marketjs.net/games/smiley-shapes/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile">
-                <a href="/?page=game_info&id=4982772008484864">
-                    <img src="https://cdn.marketjs.net/games/onet-connect/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=5904882830671872"><img src="https://cdn.marketjs.net/games/guess-the-soccer-star/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile">
-                <a href="/?page=game_info&id=6075508056915968">
-                    <img src="https://cdn.marketjs.net/games/car-park-puzzle/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=6309518813167616"><img src="https://cdn.marketjs.net/games/unblock-it/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile footer-middle-wthree">
-                <a href="/?page=game_info&id=4964078834417664">
-                    <img src="https://cdn.marketjs.net/games/monkey-bubble-shooter/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=4657023200264192"><img src="https://cdn.marketjs.net/games/hearts-connect/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile footer-middle-wthree">
-                <a href="/?page=game_info&id=5105533213212672">
-                    <img src="https://cdn.marketjs.net/games/cam-and-leon-donut-hop/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=6750909515169792"><img src="https://cdn.marketjs.net/games/flossy-and-jim-whale-tickler/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile footer-middle-wthree">
-                <a href="/?page=game_info&id=6635476766162944">
-                    <img src="https://cdn.marketjs.net/games/flip-jump/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=5870866186371072"><img src="https://cdn.marketjs.net/games/puzzle-slide-travel-edition/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="col-md-3 img-ltpwr-agile footer-middle-wthree">
-                <a href="/?page=game_info&id=4563783218364416">
-                    <img src="https://cdn.marketjs.net/games/smiley-shapes/localization/en/media/graphics/promo/icons/128x128.png" alt=" "/>
-                </a>
+                <a href="game_info.html?id=4885861473714176"><img src="https://cdn.marketjs.net/games/wham-o-slip-and-slide-party/localization/en/media/graphics/promo/icons/128x128.png" alt=" " /></a>
             </div>
             <div class="clearfix"></div>
         </div>
         <div class="col-md-4 footer-right-ltpwr">
-            <a href="/">
-                <img src="./images/logo_2.png" alt="">
-            </a>
-            <p>Plaignis is a distributor of premium games designed for grown up players worldwide. </p>
+            <a href="index.html"><img src="./images/logo_2.png" alt=""></a>
+            <p>Plaignis is the ultimate creator and distributor of games designed for grown up players worldwide. </p>
             <p class="agileinfo">Players turn to us for superior games and for reliable source of quality content.</p>
         </div>
         <div class="clearfix"></div>
         <div class="links">
-            <a href="/?page=contactus">Contact us</a>
-            <a href="/?page=policy">Privacy Policy</a>
-            <a href="/?page=terms">Terms &amp;Conditions</a>
-            <a href="/?page=faq">FAQ</a>
-            <a href="/?page=refund">Refund Policy</a>
-            <a href="/?page=sub_terms">Subscription Terms</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="./policy.html">Privacy Policy</a>
+            <a href="./terms.html">Terms &amp; Conditions</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./refund.html">Refund Policy</a>
+            <a href="./sub_terms.html">Subscription Terms</a>
         </div>
         <div class="copyright">
-            <p>
-                &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                <script>
-                    document.write(new Date().getFullYear())
-                </script>
-                Plaignis. All Rights Reserved. Powered by AryaMg LTD
-            </p>
+            <p>&copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> Plaignis. All Rights Reserved. Powered by AryaMg LTD</p>
         </div>
     </div>
 </div>
 <!-- //footer -->
 </body>
+<script>
+    $('.close_x').on('click', function () {
+        $('.cc_overlay').fadeOut(100);
+    });
+
+
+</script>
+<script>
+    // Instantiate Nuvei API
+    var sfc = SafeCharge({
+        env: 'test', // the environment you are running on, 'prod' for production
+        merchantId : "1574577095205270900",
+        merchantSiteId : "208126",
+    });
+    //Instantiate Nuvei Fields
+    var ScFields = sfc.fields({
+        fonts: [
+            { cssUrl: 'https://fonts.googleapis.com/css?family=Roboto' }, // include your custom fonts
+        ]
+    });
+    // set state field style/ check Nuvei Fields for details.
+    var ScFieldStyles = {
+        base: {
+            color: '#ffffff',
+            fontWeight: 400,
+            fontFamily: 'Roboto, Consolas, Menlo, monospace',
+            fontSize: '15px',
+            fontSmoothing: 'antialiased',
+            '::placeholder': {
+                color: '#CFD7DF',
+            },
+            ':-webkit-autofill': {
+                color: '#e39f48',
+            },
+        },
+        invalid: {
+            color: '#ff3148',
+            '::placeholder': {
+                color: '#394d79',
+            },
+        },
+    };
+    var ScFieldClasses = {
+        focus: 'focused',
+        empty: 'empty',
+        invalid: 'invalid',
+        complete: 'complete',
+    };
+    // Instantiate Nuvei Fields
+    var scard= ScFields.create('ccNumber', {
+        style: ScFieldStyles,
+        classes: ScFieldClasses,
+    });
+    scard.attach('#card-number');
+    var cardExpiry = ScFields.create('ccExpiration', {
+        style: ScFieldStyles,
+        classes: ScFieldClasses,
+    });
+    cardExpiry.attach('#card-expiry');
+    var cardCvc = ScFields.create('ccCvc', {
+        style: ScFieldStyles,
+        classes: ScFieldClasses,
+    });
+    cardCvc.attach('#card-cvc');
+</script>
+
 </html>
