@@ -588,7 +588,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	-o-transition: all .4s ease-in-out;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
-	background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+	background-image: linear-gradient(to right, #ee75f1, #764ba2, #ee75f1, #8E37D7);
 	box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
@@ -914,7 +914,7 @@ h3.game_title {
 	-o-transition: all .4s ease-in-out;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
-	background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+	background-image: linear-gradient(to right, #ee75f1, #764ba2, #ee75f1, #8E37D7);
 	box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
@@ -1001,7 +1001,7 @@ a.learn {
 	-o-transition: all .4s ease-in-out;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
-	background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+	background-image: linear-gradient(to right, #ee75f1, #764ba2, #ee75f1, #8E37D7);
 	box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 	outline: transparent;
 	position: relative;
@@ -2512,7 +2512,7 @@ select:focus {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background-image: linear-gradient(to right, #ee75f1, #764ba2, #ee75f1, #8E37D7);
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
